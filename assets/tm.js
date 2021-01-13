@@ -42,7 +42,7 @@ function getURLParameter(name) {
     chat1.setAttribute("scrolling", "no");
     chat1.setAttribute("height", items_size);
     chat1.setAttribute("width", "100%");
-    chat1.setAttribute("src", "https://www.twitch.tv/embed/" + s1 + "/chat?darkpopout");
+    chat1.setAttribute("src", "https://www.twitch.tv/embed/" + s1 + "/chat?parent=silxs.github.io&darkpopout");
 
     document.getElementById('chat1').appendChild(chatTitle1);
     document.getElementById('chat1').appendChild(chat1);
@@ -52,7 +52,7 @@ function getURLParameter(name) {
 
 
     chatTitle2.innerHTML = s2;
-    chat2.setAttribute("src", "https://www.twitch.tv/embed/" + s2 + "/chat?darkpopout");
+    chat2.setAttribute("src", "https://www.twitch.tv/embed/" + s2 + "/chat?parent=silxs.github.io&darkpopout");
     chat2.setAttribute("height", items_size);
 
     document.getElementById('chat2').appendChild(chatTitle2);
