@@ -67,11 +67,11 @@ function getURLParameter(name) {
     player1.setAttribute("width", items_size);
     player1.setAttribute("style", "float: left;");
     player1.setAttribute("muted", true);
-    player1.setAttribute("src", "https://player.twitch.tv/?channel=" + s1 + "&muted=yes");
+    player1.setAttribute("src", "https://player.twitch.tv/?channel=" + s1 + "&parent=silxs.github.io&muted=yes");
     document.getElementById('players').appendChild(player1);
 
     player2 = player1.cloneNode(true);
-    player2.setAttribute("src", "https://player.twitch.tv/?channel=" + s2 + "&muted=yes");
+    player2.setAttribute("src", "https://player.twitch.tv/?channel=" + s2 + "&parent=silxs.github.io&muted=yes");
     player2.setAttribute("width", items_size);
     player2.setAttribute("style", "float: right;");
     document.getElementById('players').appendChild(player2);
