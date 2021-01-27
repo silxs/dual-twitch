@@ -4,7 +4,7 @@ function getURLParameter(name) {
 
 (function () {
     "use strict";
-    var items_size = "100%";
+    var items_size = "95%";
 
     /*
     if (getURLParameter("s3") != null || getURLParameter("s4") != null) {
