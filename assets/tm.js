@@ -42,7 +42,6 @@ function getURLParameter(name) {
     chat1.setAttribute("scrolling", "no");
     chat1.setAttribute("height", items_size);
     chat1.setAttribute("width", "100%");
-    chat1.setAttribute("onload", "resizeIframe(this)");
     chat1.setAttribute("src", "https://www.twitch.tv/embed/" + s1 + "/chat?parent=silxs.github.io&darkpopout");
 
     document.getElementById('chat1').appendChild(chatTitle1);
